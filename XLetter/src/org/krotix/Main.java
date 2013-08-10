@@ -11,7 +11,7 @@ public class Main {
         Integer half = n / 2;
         StringBuilder lineBuilder;
 
-        //верхнияя часть
+        //РІРµСЂС…РЅРёСЏСЏ С‡Р°СЃС‚СЊ
         for (int i = 0; i < half; i++) {
             lineBuilder = new StringBuilder();
             for (int j = 0; j < i; j++) {
@@ -28,7 +28,7 @@ public class Main {
             System.out.println(lineBuilder);
         }
 
-        //центральный x
+        //С†РµРЅС‚СЂР°Р»СЊРЅС‹Р№ x
         lineBuilder = new StringBuilder();
         for (int i = 0; i < half; i++) {
             lineBuilder.append(EMPTY);
@@ -36,7 +36,7 @@ public class Main {
         lineBuilder.append(Main.X);
         System.out.println(lineBuilder);
 
-        //нижняя часть
+        //РЅРёР¶РЅСЏСЏ С‡Р°СЃС‚СЊ
         space = 1;
         for (int i = half; 0 < i; i--) {
             lineBuilder = new StringBuilder();
